@@ -31,8 +31,13 @@ I am unable to say for certain, but it can be safely assumed that the original d
 | BroadJump | Length of the players broad jump in inches |
 | Cone | Time of the players 3 cone drill in seconds |
 | Shuttle | Time of the players 20-yard shuttle in seconds |
+| Year | The year the player was drafted |
+| AV | Approximate Value. This is a statistic computed by pro-football-reference. Learn more [here](https://www.sports-reference.com/blog/approximate-value/) |
+| Team | Team that drafted the player |
+| Round | The round the player was drafted |
+| Pick | The selection in the draft (overall) that the player was selected |
 
-##### Note: If any of the fields are missing (or -1 after being cleaned) this means the player did not participate in that drill.
+##### Note: If any of the fields are missing (or -1 after being cleaned) this means the player did not participate in that drill. Missing data in Team, Round, and Pick means the player went undrafted.
 ***
 ### Set up instructions
 
